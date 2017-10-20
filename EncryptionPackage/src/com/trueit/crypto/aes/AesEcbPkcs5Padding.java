@@ -43,8 +43,8 @@ public class AesEcbPkcs5Padding {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String key = "mvLBiZsiTbGwrfJB";
-		String data = "ABC";
+		String key = "1234567890123456";		// 16 Characters, 128 bit
+		String data = "66971767452";
 
 		System.out.println(AesEcbPkcs5Padding.encrypt(data, key));
 		System.out.println(AesEcbPkcs5Padding.decrypt(AesEcbPkcs5Padding.encrypt(data, key), key));

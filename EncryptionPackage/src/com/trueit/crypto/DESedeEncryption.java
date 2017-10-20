@@ -81,7 +81,7 @@ public class DESedeEncryption {
 	public static void main(String args[]) throws Exception {
 		DESedeEncryption myEncryptor = new DESedeEncryption();
 
-		String stringToEncrypt = "test";
+		String stringToEncrypt = "11223344556";
 		String encrypted = myEncryptor.encrypt(stringToEncrypt);
 		String decrypted = myEncryptor.decrypt(encrypted);
 
